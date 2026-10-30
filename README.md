@@ -3,7 +3,7 @@
 
   <img src="assets/media/logo.jpg" alt="logo" width="200" height="auto" />
     <h1><a href="https://github.com/AI-Extreme-Programming/ai-extreme-programming.github.io">AI-Extreme-Programming/ai-extreme-programming.github.io</a></h1>
-  <h3>Nulla nobis dicta iste minus dolor repellendus aspernatur atque</h3>
+  <h3>Org site for AI Extreme Programming, served at aixp.scottkirvan.com</h3>
   
   
 <!-- Badges -->
@@ -33,9 +33,7 @@
 </p>
    
 <h4>
-    <a href="https://tinyurl.com/3vf7whyd">View Demo</a>
-  <span> · </span>
-    <a href="https://github.com/AI-Extreme-Programming/ai-extreme-programming.github.io/blob/main/README.md">Documentation</a>
+    <a href="https://aixp.scottkirvan.com/">View Site</a>
   <span> · </span>
     <a href="https://github.com/AI-Extreme-Programming/ai-extreme-programming.github.io/issues/new?template=bug_report.md">Report Bug</a>
   <span> · </span>
@@ -43,27 +41,13 @@
   </h4>
 </div>
 
-**ai-extreme-programming.github.io** is voluptatibus magni nemo est. Nulla nobis dicta iste minus dolor repellendus aspernatur atque. Earum expedita aut inventore tempora fugiat deleniti. Molestias minima nam expedita beatae totam ipsa reprehenderit animi. Occaecati quibusdam beatae ducimus voluptate ut doloribus vitae amet. Quia ut ut voluptate dignissimos adipisci dolorum rem.
+This is the organization site for [AI Extreme Programming](https://github.com/AI-Extreme-Programming), a VitePress site in `docs/` served at **[aixp.scottkirvan.com](https://aixp.scottkirvan.com/)**.
 
-## Getting Started with This Template
+Because this repo carries the org's custom domain, every other Pages site in the org is served under it at `aixp.scottkirvan.com/<repo>/`. For example, [aiXP](https://github.com/AI-Extreme-Programming/aiXP) is at [aixp.scottkirvan.com/aiXP/](https://aixp.scottkirvan.com/aiXP/). Link to those sites by full URL, not as pages of this site, and don't add a page here with the same path as an org repo.
 
->[!IMPORTANT]
-> **Customization Checklist** — After creating a repository from this template, update these items:
->
-> - [ ] Update the project description (line 5 above and in repository settings)
-> - [ ] Replace `assets/media/logo.jpg` with your project logo
-> - [ ] Update or remove the "View Docs" link (line 35)
-> - [ ] Update or remove the Discord badge/link (lines 28–31)
-> - [ ] Choose and apply a `.gitignore` from `.github/gitignore-templates/` (see [gitignore templates](.github/gitignore-templates/))
-> - [ ] Fill in `project_context`, `header`, `footer`, and `emoji` TODOs in `.github/workflows/release.yml` and `.github/workflows/pre-release-staging.yml`
-> - [ ] Fill in the Features, Installation, and Usage sections below
-> - [ ] Review and update the [Code of Conduct](CODE_OF_CONDUCT.md) contact information
-> - [ ] Enable GitHub Pages in repository settings (source: GitHub Actions) for your docs site
-> - [ ] Review and customize `CLAUDE.md` if using AI coding agents, or delete it if not
-> - [ ] Remove or update this checklist section
-
->[!TIP]
-> **Automatic initialization**: When you create a new repository from this template, a GitHub Actions workflow automatically updates all repository references, URLs, and badges in the README with your new repository information, then deletes itself. No manual find-and-replace needed.
+- **Build:** `cd docs && npm ci && npm run docs:build` (VitePress, `base: '/'`).
+- **Deploy:** `docs.yml` publishes to GitHub Pages on pushes that change `docs/`. Pages source: GitHub Actions; custom domain `aixp.scottkirvan.com` (set in the repo's Pages settings).
+- **DNS:** Cloudflare `CNAME aixp → ai-extreme-programming.github.io`, set to DNS only so GitHub can issue the HTTPS certificate.
 
 ## Key Features
 

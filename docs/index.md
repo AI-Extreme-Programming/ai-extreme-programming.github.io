@@ -2,29 +2,33 @@
 layout: home
 
 hero:
-  name: "ai-extreme-programming.github.io"
-  text: "TODO - Short project headline"
-  tagline: TODO - Replace with your project tagline.
+  name: "AI Extreme Programming"
+  text: "Extreme Programming for Human-AI Teams of 1 to N"
+  tagline: A proposed software engineering discipline for AI-assisted development, grounded in classic XP, Lean and SRE, and in daily practice pairing with AI coding agents on real projects.
   actions:
     - theme: brand
-      text: View on GitHub
-      link: https://github.com/AI-Extreme-Programming/ai-extreme-programming.github.io
+      text: Read the aiXP draft
+      link: https://aixp.scottkirvan.com/aiXP/
+      target: _self
+    - theme: alt
+      text: GitHub
+      link: https://github.com/AI-Extreme-Programming
     - theme: alt
       text: Discord
       link: https://discord.gg/TN6XJSNK5Y
 
 features:
-  - icon: 🚀
-    title: Feature One
-    details: TODO - Describe your first key feature here.
+  - title: aiXP, the draft
+    details: The manifesto, the practices, and how they scale from one developer to a team. A working draft at the brainstorm stage.
+    link: https://aixp.scottkirvan.com/aiXP/
+    linkText: Start reading
+    target: _self
 
-  - icon: 🛠️
-    title: Feature Two
-    details: TODO - Describe your second key feature here.
+  - title: Premise
+    details: Extreme Programming was built on one bet - tight feedback loops beat upfront certainty. AI makes that bet stronger, not weaker, and shifts the cost of software from writing code to verifying, bounding, and integrating it.
 
-  - icon: 📖
-    title: Feature Three
-    details: TODO - Describe your third key feature here.
+  - title: The Practices
+    details: From Spec-First Prompting and Asymmetric Pairing to Agent Role Topology and Risk-Tiered Verification - engineering practices designed for machine-speed collaboration.
 ---
 
 <!-- Begin Sponsors -->
