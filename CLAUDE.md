@@ -1,4 +1,4 @@
-# CLAUDE.md — ScooterGitTemplate
+# CLAUDE.md — ai-extreme-programming.github.io
 
 ## Keeping This File Current
 

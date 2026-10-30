@@ -1,6 +1,6 @@
-# Contributing to ScooterGitTemplate
+# Contributing to ai-extreme-programming.github.io
 
-First off, thank you for considering contributing to ScooterGitTemplate! It's people like you that make this template better for everyone.
+First off, thank you for considering contributing to ai-extreme-programming.github.io! It's people like you that make this template better for everyone.
 
 ## Code of Conduct
 
@@ -81,7 +81,7 @@ feat!: change template initialization to require manual trigger
 ## Project Structure
 
 ```
-ScooterGitTemplate/
+ai-extreme-programming.github.io/
 ├── .github/
 │   ├── gitignore-templates/    # Ready-to-use .gitignore files
 │   ├── release-please/         # Release-Please config and version manifest
